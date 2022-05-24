@@ -11,7 +11,7 @@ public class FruitCollected : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = false;                 // Al coger la manzana
             gameObject.transform.GetChild(0).gameObject.SetActive(true);    // Se desactiva el sprite de la fruta
             
-            //FindObjectOfType<FruitManager>().AllFruitsCollected();
+            
 
             Destroy(gameObject, 0.5f);                                      // Se destruye la fruta
         }
