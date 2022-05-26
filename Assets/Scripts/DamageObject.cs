@@ -9,7 +9,7 @@ public class DamageObject : MonoBehaviour
         if (collision.transform.CompareTag("Player"))
         {
             Debug.Log("Ouch");
-            Destroy(collision.gameObject);
+            collision.transform.GetComponent<PlayerRespawn>().PlayerDamage();
         }
         
     }

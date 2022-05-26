@@ -9,7 +9,7 @@ public class EnemySpikeHead : MonoBehaviour                                 //Ge
         if (collision.transform.CompareTag("Player"))
         {
             Debug.Log("oughhhh");
-            Destroy(collision.gameObject);
+            collision.transform.GetComponent<PlayerRespawn>().PlayerDamage();
         }
         
     }
