@@ -1040,7 +1040,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3586541134353837968, guid: 70aebf993ea36c0409e842c8a39c465b, type: 3}
       propertyPath: playerSelected
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3586541134353837968, guid: 70aebf993ea36c0409e842c8a39c465b, type: 3}
       propertyPath: playersController.Array.size
