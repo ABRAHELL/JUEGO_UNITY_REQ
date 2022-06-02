@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3977bfb8b9c7cfd47840bf26dd6d695f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableSelectCharacter: 0
   playerSelected: 0
   animator: {fileID: 3586541134353837972}
   spriteRenderer: {fileID: 3586541134353837975}
