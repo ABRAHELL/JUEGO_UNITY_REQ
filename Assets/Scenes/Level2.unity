@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 930277237}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: Return
         m_Mode: 1
@@ -4651,7 +4651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &790659164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5108,6 +5108,7 @@ GameObject:
   - component: {fileID: 930277235}
   - component: {fileID: 930277234}
   - component: {fileID: 930277233}
+  - component: {fileID: 930277237}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5202,6 +5203,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &930277237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930277232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4d14c32b77d754cb0c2a09d78a7aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionsPanel: {fileID: 790659163}
 --- !u!1001 &932863171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5474,7 +5488,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 930277237}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: OptionsPanel
         m_Mode: 1
@@ -6691,7 +6705,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 930277237}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: GoMainMenu
         m_Mode: 1
@@ -6824,7 +6838,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 930277237}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
