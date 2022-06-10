@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "YOU WHERE HUNGRY, \nHUH?"
+  m_Text: "YOU WERE HUNGRY, \nHUH?"
 --- !u!222 &6049724
 CanvasRenderer:
   m_ObjectHideFlags: 0

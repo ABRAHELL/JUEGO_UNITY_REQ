@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class OpenDoor : MonoBehaviour
-{
+public class OpenDoor : MonoBehaviour           //  Historia de Usuario HU02 
+{                                               //  (Ver niveles disponibles)
     public Text text;
     public string levelName;
     private bool inDoor = false;

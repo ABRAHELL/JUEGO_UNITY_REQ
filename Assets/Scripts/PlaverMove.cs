@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlaverMove : MonoBehaviour
-{
-    [Header("Variables")]
-
-    public float runSpeed = 2;      // movimiento eje x
+public class PlaverMove : MonoBehaviour                 // Historia de usuario HU01 - HU03 - HU03 - HU15 - HU04
+{                                                       // (Tener un personaje) - (Movimiento del personaje) 
+    [Header("Variables")]                               // (Doble salto) - (Tener animaciones para el personaje)
+                                                    
+    public float runSpeed = 2;      // movimiento eje x  
     public bool betterJump = false;
     public float jumpSpeed = 3;     //salto
     public float doubleJumpSpeed = 2.5f;

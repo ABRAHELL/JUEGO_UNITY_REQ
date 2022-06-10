@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Trampoline : MonoBehaviour
-{
+public class Trampoline : MonoBehaviour                             // Historia de usuario
+{                                                                   // (ventaja de trampolín)
     public Animator animator;
     public float jumpForce = 2f;
 

@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class FruitManager : MonoBehaviour
-{
-    public Text levelCleared;
+public class FruitManager : MonoBehaviour                   // Historia de usuario HU14 - HU08 - HU06
+{                                                           // (Mostrar aviso al pasar de nivel)-(ver frutas restantes)
+    public Text levelCleared;                               // (pasar al suiguiente nivel)
 
     public Text totalFruits;
     public Text collectedFruits;
